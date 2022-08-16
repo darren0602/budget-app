@@ -15,7 +15,7 @@ Instructions:
 React Hooks used:  
 a) useState for local state  
 b) useContext for global state  
-c) useReducer for various custom state logic
-d) useEffect for displaying filtered data items & utilize local storage to save data across browser sessions
+c) useReducer for various custom state logic  
+d) useEffect for displaying filtered data items & utilize local storage to save data across browser sessions  
 
 Made by: Darren Teoh
