@@ -47,7 +47,7 @@ export const AppContext = React.createContext()
 export function AppProvider(props) {
     const [state, dispatch] = React.useReducer(AppReducer, undefined, initializer)
     
-    // Update localStorage with state anytime state is changed
+    // Update localStorage with state whenever state is changed
     React.useEffect(() => {
         localStorage.setItem('expensesData', JSON.stringify(state))
     }, [state])

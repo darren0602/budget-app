@@ -6,6 +6,7 @@ export default function Remaining() {
     const totalCost = expenses.reduce((total, item) => total=total+item.cost, 0)
     const totalRemaining = budget - totalCost
 
+    // If totalCost exceeds budget, display red coloured form, else green
     const alertType = totalCost > budget ? 'danger' : 'success'
 
     return (
