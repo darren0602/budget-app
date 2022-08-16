@@ -1,7 +1,7 @@
 A basic budget planner app.
 
 This app was styled with CSS Bootstrap to allow quick Mobile first designs.  
-The container element allows contents to be wrapped dynamically to accomodate mobile device viewport.git 
+The container element allows contents to be wrapped dynamically to accomodate mobile device viewport.
 
 URL: https://darren0602.github.io/budget-app  
 Hosted via GitHub Pages
